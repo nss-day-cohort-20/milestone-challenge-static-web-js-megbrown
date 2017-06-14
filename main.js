@@ -3,16 +3,11 @@ var pineTreeObject = {};
 var button = document.getElementById("submit");
 var inputEnterHeight = document.getElementById("height-area");
 var inputEnterChar = document.getElementById("character-area");
+var inputEnter = document.getElementById("input-areas");
 
 button.addEventListener("click", makeTreeObject);
 
-inputEnterHeight.addEventListener("keyup", function (event) {
-	if (event.key === "Enter") {
-		makeTreeObject();
-	}
-});
-
-inputEnterChar.addEventListener("keyup", function (event) {
+inputEnter.addEventListener("keyup", function (event) {
 	if (event.key === "Enter") {
 		makeTreeObject();
 	}
