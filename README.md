@@ -25,14 +25,6 @@ Once the user enters in a number, and a character, the user can either then just
 
 If either of the input fields does not have a value in it when the user presses the enter key, or presses the button, then display an alert stating that both fields must have a value.
 
-<div>
-    <input type="text" style="width: 40%" placeholder="How tall should the tree be?">
-</div>
-<div>
-    <input type="text" style="width: 40%" placeholder="Which character should be used?">
-</div>
-
-<button>Grow your tree</button>
 
 ##### Example
 
